@@ -21,7 +21,7 @@ git clone <仓库地址> ~/.config/tmux
 ln -sf ~/.config/tmux/tmux.conf ~/.tmux.conf
 ```
 
-启动 tmux 即可，`tmux.sh` 会自动安装 TPM 及所有插件：
+启动 tmux 即可，`tmux.conf` 会自动尝试加载 `tmux.sh`，并在首次缺少 TPM 时自动安装 TPM 和插件：
 
 ```bash
 tmux new -s work
@@ -90,7 +90,7 @@ Prefix 键为 `Ctrl-u`（替代默认的 `Ctrl-b`）。
 
 ## 新机器部署
 
-只需 clone + 链接 + 启动，插件全自动安装：
+只需 clone + 链接 + 启动，首次会自动安装 TPM 和插件：
 
 ```bash
 git clone <仓库地址> ~/.config/tmux
