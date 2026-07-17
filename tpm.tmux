@@ -25,13 +25,13 @@ set-option -g @extrakto_filter_order  "word line all custom"
 set-option -g @plugin 'dracula/tmux'
 set-option -g @dracula-plugins           "weather cpu-usage ram-usage time"
 set-option -g @dracula-fixed-location    "shenzhen"
-set-option -g @dracula-show-left-icon    "#H <U+E0B1> ❐ <U+E0B1> #S <U+E0B1> #I <U+E0B1> #P" # U+2750/U+f2d2/U+e62a
+set-option -g @dracula-show-left-icon    "#H  ❐  #S  #I  #P"
 set-option -g @dracula-left-icon-padding 0
 set-option -g @dracula-refresh-rate      10
 set-option -g @dracula-show-left-sep     "\ue0c4" #'<U+E0C0> ' # U+e0c0
 set-option -g @dracula-show-right-sep    "\ue0b6" #"<U+E0B2>"  # U+e0b2
-set-option -g @dracula-cpu-usage-label   "<U+F0EE0> " # U+f2db
-set-option -g @dracula-ram-usage-label   "<U+F0697> " # U+f4bc
+set-option -g @dracula-cpu-usage-label   "󰍛 "
+set-option -g @dracula-ram-usage-label   " "
 set-option -g @dracula-show-fahrenheit   false
 set-option -g @dracula-show-location     false
 set-option -g @dracula-military-time     true
